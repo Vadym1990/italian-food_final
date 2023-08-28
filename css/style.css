@@ -1083,8 +1083,25 @@ li {
         display: none;
     }
 
+    .location>div:nth-child(2) {
+        line-height: 1;
+    }
+
+    .footer-logo {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+    }
+
     .footer {
-        padding: 0;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 0;
+        height: 300px;
+    }
+
+    .address {
+        margin: 50px auto;
     }
 }
 
